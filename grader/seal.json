@@ -13,7 +13,7 @@
   ".github/workflows/level-09.yml": "7ea769c7acbbbaa60f646e03cde05c5ba7fb302238ada8d5cfda8760ac136600",
   "grader/__init__.py": "2dc85602f870d1ae01a9fce3295e4390e91eec584428b038055a0150c82a8b06",
   "grader/__main__.py": "bed87f9eaa9be45805ab429a5ae24b36f80830e79e3d8cabf7a0446d0902c0e9",
-  "grader/boss.py": "557d1b500dcc58c9262f522d8550a1e0386fc233c5972339332f584dad841081",
+  "grader/boss.py": "96dc99f2b676e9a5525314c839328658a30187d6dfd839cab20e04e9ea47aa14",
   "grader/checks.py": "cdc53e7700f2b76d4a017149f1bddcbf94aef5fa9838948f9634fd1a6ebbfcad",
   "grader/engine.py": "b0a92b4c69ae9390883ad8dca6cea64a9c7a971b2bc07f46acad50eed73dc048",
   "grader/levels.py": "2df4677fa67b513a929f7253f31b2d5b45b749998baa2e7e44f49df3208c5fc6",

@@ -28,8 +28,10 @@ The `Build` workflow runs the boss on **Python 3.12, 3.13 and 3.14** at the same
 | **The Aura** | **98 %** branch coverage of the *whole* dungeon | find the code nobody tested |
 | **The Chronicle** | every commit to `tests/` has a quest log entry | a history your teammates (and your teacher) can read |
 
-## The hard part: the Aura
+## The hard part: the Aura (here be dragons)
 
+Old maps marked the unexplored edges of the world with *here be dragons*. Your coverage
+report is that map: the lines it lists as missing are waters nobody has sailed yet.
 The ten levels together cover about 92 % of the dungeon. The rest is code no level asked
 about. Find it:
 

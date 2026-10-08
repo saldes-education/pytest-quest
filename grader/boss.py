@@ -119,8 +119,9 @@ def _aura() -> Check:
     weakest = sorted((v["summary"]["percent_covered"], Path(k).name) for k, v in data["files"].items())
     listing = ", ".join(f"{name} {pct:.0f}%" for pct, name in weakest if pct < 100)
     return Check(False, title,
-                 f"You're at {total:.1f}%. Least covered: {listing}. Some dungeon code isn't part of any "
-                 "level: find it and test it (tag those commits 'boss:'). See it yourself:\n"
+                 f"You're at {total:.1f}%. Least covered: {listing}. Here be dragons: some dungeon "
+                 "code isn't part of any level. Find it and test it (tag those commits 'boss:'). "
+                 "See the map yourself:\n"
                  "  pytest tests --cov=src/dungeon --cov-branch --cov-report=term-missing")
 
 
